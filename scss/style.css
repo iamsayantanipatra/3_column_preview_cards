@@ -1,0 +1,182 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  padding: 0;
+}
+
+.container {
+  padding-top: 43px;
+}
+
+.col__1 {
+  background-color: #e38826;
+  width: 306px;
+  height: 502px;
+}
+
+.col__1 img {
+  margin-left: 29px;
+  margin-top: 34px;
+}
+
+.col__1 .text-box p {
+  font-size: 18px;
+  width: 266px;
+  padding: 0 30px;
+  color: #f2f2f2;
+  font-family: "Lexend Deca", sans-serif;
+}
+
+.col__1 .text-box .btn__1 {
+  width: 147px;
+  height: 50px;
+  background-color: #f2f2f2;
+  color: #e38826;
+  font-family: "Lexend Deca", sans-serif;
+  border-radius: 30px;
+  margin: 57px 21px;
+}
+
+.col__2 {
+  background-color: #006970;
+  width: 306px;
+  height: 502px;
+}
+
+.col__2 img {
+  margin-left: 29px;
+  margin-top: 34px;
+}
+
+.col__2 .text-box p {
+  width: 281px;
+  color: #f2f2f2;
+  font-family: "Lexend Deca", sans-serif;
+  padding: 0 30px;
+}
+
+.col__2 .text-box .btn__2 {
+  width: 147px;
+  height: 50px;
+  background-color: #f2f2f2;
+  color: #006970;
+  font-family: "Lexend Deca", sans-serif;
+  border-radius: 30px;
+  margin: 98px 21px;
+}
+
+.col__3 {
+  background-color: #004241;
+  width: 306px;
+  height: 502px;
+}
+
+.col__3 img {
+  padding-left: 25px;
+  padding-top: 31px;
+}
+
+.col__3 .text-box p {
+  width: 15pc;
+  color: #f2f2f2;
+  font-family: "Lexend Deca", sans-serif;
+  margin-left: 30px;
+}
+
+.col__3 .text-box .btn__3 {
+  width: 147px;
+  height: 50px;
+  background-color: #f2f2f2;
+  color: #004241;
+  font-family: "Lexend Deca", sans-serif;
+  border-radius: 30px;
+  margin: 97px 21px;
+}
+
+h1 {
+  color: #f2f2f2;
+  font-family: "Big Shoulders Display", cursive;
+  text-transform: uppercase;
+  padding: 30px;
+}
+
+.btn:hover {
+  background: transparent !important;
+  color: #f2f2f2 !important;
+  border: #f2f2f2 !important;
+  outline: rgba(255, 255, 255, 0.75) !important;
+}
+
+.btn:focus {
+  background: transparent !important;
+  color: #f2f2f2 !important;
+  border: #f2f2f2 !important;
+}
+
+.attribution {
+  text-align: center;
+  padding: 23px 0;
+}
+
+.attribution a {
+  text-decoration: none !important;
+  font-weight: bold;
+  font-family: "Big Shoulders Display", cursive;
+}
+
+@media screen and (max-width: 768px) {
+  .col__3 {
+    height: 441px;
+  }
+  .col__3 img {
+    padding-left: 20pc;
+    padding-top: 42px;
+  }
+  .col__3 .text-box h1 {
+    margin-left: 18pc;
+  }
+  .col__3 .text-box p {
+    width: 23pc;
+    text-align: center;
+    margin-left: 11pc;
+  }
+  .col__3 .text-box .btn__3 {
+    margin: 70px 18pc;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .col__3 img {
+    padding-left: 23px;
+  }
+  .col__3 .text-box h1 {
+    margin-left: 0;
+  }
+  .col__3 .text-box p {
+    width: 17pc;
+    text-align: left;
+    margin-left: 30px;
+  }
+  .col__3 .text-box .btn__3 {
+    margin: 70px 23px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
