@@ -7,7 +7,6 @@ This is a solution to the [3-column preview card component challenge on Frontend
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
@@ -28,61 +27,11 @@ This is my solution, of this project.
 
 ### Built with
 
-- Semantic HTML5 markup
-- CSS custom properties
-- Flexbox
-- CSS Grid
+- HTML5 markup
 - Mobile-first workflow
 - [Bootstrap](https://getbootstrap.com/) - Bootstrap
 - [SASS/SCSS](https://nextjs.org/) - SASS/SCSS
-
-### What I learned
-I learned about bs5 columns, media queries, etc
-
-To see how you can add code snippets, see below:
-
-```html
- <div class="col col__3">
-        <img src="images/icon-luxury.svg" alt="luxury">
-        <div class="text-box">
-          <h1>Luxury</h1>
-          <p>Cruise in the best car brands without the bloated prices. Enjoy the enhanced comfort of a luxury
-            rental and arrive in style.</p>
-          <button class="btn btn__3">Learn More</button>
-        </div>
-      </div>
-```
-```scss
-.col__3 {
-  background-color: $Very-dark-cyan;
-  width: 306px;
-  height: 502px;
-
-  img {
-    padding-left: 25px;
-    padding-top: 31px;
-  }
-
-  & .text-box {
-    p {
-      width: 15pc;
-      color: $Very-light-gray;
-      font-family: "Lexend Deca", sans-serif;
-      margin-left: 30px;
-    }
-    & .btn__3 {
-      width: 147px;
-      height: 50px;
-      background-color: $Very-light-gray;
-      color: $Very-dark-cyan;
-      font-family: "Lexend Deca", sans-serif;
-      border-radius: 30px;
-      margin: 97px 21px;
-    }
-  }
-}
-```
-
+- 
 ### Continued development
 I would be more focusing on css grids and flexboxs, learning more about sass/scss, javascript,bootstrap also
 
