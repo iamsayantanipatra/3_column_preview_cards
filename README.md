@@ -21,7 +21,7 @@ This is my solution, of this project.
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [solution URL](https://github.com/iamsayantanipatra/3_column_preview_cards)
 - Live Site URL: [Live Solution Page](https://3-column-preview-card-by-sayantani.netlify.app/)
 
 ## My process
